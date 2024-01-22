@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body{
+    background: linear-gradient(225deg, rgb(80, 80, 80) , white);
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    height: 100vh;
+    width: 550px;
+    background: linear-gradient(135deg, grey, rgb(78, 78, 78));
+    padding: 30px;
+}
+
+.calculator h1{
+    width: 100%;
+    background-color: orange;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.calculator h1 span{
+    margin: 20px;
+}
+
+.btn-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.btn{
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: black;
+}
+
+.operator-btn{
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: orange;
+}
+
+.btn:hover{
+    background-color: rgb(115, 8, 255);
+}
+
+.btn:active{
+    background-color: rgb(59, 4, 133);
+}
+
+.operator-btn:hover{
+    background-color: rgb(115, 8, 255);
+}
+
+.operator-btn:active{
+    background-color: rgb(59, 4, 133);
+}
